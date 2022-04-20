@@ -1,0 +1,46 @@
+‹html>
+
+‹body>
+
+‹script>
+
+function validateemail()
+
+var x=document.myform.email.value;
+
+var atposition=x.indexof("@");
+
+var dotposition=x.lastIndexof(".");
+
+if (document. getElementById("t2"). value
+
+==
+
+atposition<1 | | dotposition<atposition+2 | I dotposition+2>=x.length){
+
+alert("Please enter a valid e-mail address In atpostion:
+
+"+atposition+"\n dotposition:"+dotposition);
+
+T
+
+return false;
+
+A
+
+}
+
+</script>
+
+‹form name="myform" action="http://www.google.com" onsubmit="return validat
+
+‹body>
+
+Email: ‹input type="text" name="email"><br/>
+
+‹input type="submit" value="register">
+
+</form>
+
+</body>
+</html>
